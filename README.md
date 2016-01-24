@@ -4,9 +4,13 @@ interesting little tools
 job_spider
 ------------
 A spider for job title and description in the freelancer websites Upwork
+
 This sample only takes jobs in Web, Mobile & Software Dev department
+
 MongoDB is used, in order to test you have to set your Mongodb service up
+
 Basic setting is in runSpider.py
+
 Step 1:
  set the settings in runSpider.py and run a Mongodb service
  
@@ -17,6 +21,8 @@ Step 3:
  run dataProcess.py, this will process the data in database and produce a bar chart on the hottest skill key words in Upwork
 
 A sample output is like this:
+
+![image](https://github.com/YunruL/toytools/blob/master/job_spider/figure_1.png)
 
 
 nonsense:
